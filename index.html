@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Welcome to Task Manager</h1>
+    <p>Here you will be able to add / edit / delete tasks</p>
+
+    <p>Select option:</p>
+    <button id="addTask">Add Task</button>
+
+    <div id="taskAddContainer" style="display:none">
+        <textarea id="taskInput" placeholder="Add Task:"></textarea>
+        <br />
+        <button id="saveButton">Save</button>
+        <button id="cancelButton">Cancel</button>
+    </div>
+
+    <ul id="taskList"></ul>
+    
+    
+    <script src="index.js"></script>
+</body>
+</html>
